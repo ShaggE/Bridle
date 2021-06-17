@@ -1,0 +1,137 @@
+html, body {
+    width: 400px;
+    /*height: 1900px;*/
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bigbutton {
+    width: 98%;
+    margin: 0% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 2.0em;
+    cursor: pointer;
+}
+
+.mediumbutton {
+    display: inline-block;
+    width: 47.4%;
+    margin: 2% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.smallbutton {
+    display: inline-block;
+    width: 22.2%;
+    margin: 2% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.minibutton {
+    display: inline-block;
+    width: 8%;
+    margin: 2% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.params {
+    /*display: inline-block;*/
+    margin: 0% auto;
+    padding: 4px;
+}
+
+.pastetable {
+    display: inline-block;
+    margin: 0% auto;
+    padding: 4px;
+    text-align: right;
+}
+
+.logline {
+    display: inline-block;
+    margin: 0% auto;
+    padding: 4px;
+}
+
+.logline3 {
+    margin: 0% auto;
+    padding: 4px;
+}
+
+.loadpage {
+    background-color: #FFDD88;
+}
+
+.loadpage:hover {
+    background-color: #FFCC66;
+}
+
+.get {
+    background-color: #E5F2F2;
+}
+
+.get:hover {
+    background-color: #CFF2F2;
+}
+
+.clear {
+    background-color: #FBFBC9;
+}
+
+.clear:hover {
+    background-color: #EAEAC9;
+}
+
+.letsgo {
+    background-color: #00FB00;
+}
+
+.letsgo:hover {
+    background-color: #00EA00;
+}
+
+.pause {
+    background-color: #CC8888;
+}
+
+.pause:hover {
+    background-color: #CC6666;
+}
+
+.exporttable {
+    background-color: #88CC88;
+}
+
+.exporttable:hover {
+    background-color: #77BB77;
+}
+
+.importtable {
+    background-color: #8888CC;
+}
+
+.importtable:hover {
+    background-color: #7777BB;
+}
+
+.tablenumber {
+    text-align: center;
+}
+
+.tablenumber:hover {
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff0000 !important;
+    color: #FFFFFF
+}

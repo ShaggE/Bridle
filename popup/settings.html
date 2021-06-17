@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="settings.css"/>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            td {
+                padding: 3px;
+                border: 1px solid #000;
+            }
+            tbody tr:nth-child(1) td:nth-child(1) {
+                text-align: center;
+                background-color: #AAA;
+                color: #333;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="button bigbutton loadpage">Load this page</div>
+        <p class="params" align="right">Max tickets(1-10): <input type="number" id="maxtickets" size="5" name="num" min="1" max="10" value="3"></p>
+        <p class="params" align="right">Max Coincidences(0-30): <input type="number" id="maxcoinc" size="5" name="num" min="0" max="30" value="0"></p>
+        <div class="button smallbutton get">Get numbers</div>
+        <div class="button smallbutton clear">Reset</div>
+        <div class="button smallbutton letsgo">GO!</div>
+        <div class="button smallbutton pause">PAUSE</div>
+        <table id="table1">
+            <tbody>
+                <tr>
+                    <td>N</td><td class="1 tablenumber">1</td><td class="2 tablenumber">2</td><td class="3 tablenumber">3</td><td class="4 tablenumber">4</td><td class="5 tablenumber">5</td><td class="6 tablenumber">6</td><td class="7 tablenumber">7</td><td class="8 tablenumber">8</td><td class="9 tablenumber">9</td>
+                </tr>
+                <tr>
+                    <td class="10 tablenumber">10</td><td class="11 tablenumber">11</td><td class="12 tablenumber">12</td><td class="13 tablenumber">13</td><td class="14 tablenumber">14</td><td class="15 tablenumber">15</td><td class="16 tablenumber">16</td><td class="17 tablenumber">17</td><td class="18 tablenumber">18</td><td class="19 tablenumber">19</td>
+                </tr>
+                <tr>
+                    <td class="20 tablenumber">20</td><td class="21 tablenumber">21</td><td class="22 tablenumber">22</td><td class="23 tablenumber">23</td><td class="24 tablenumber">24</td><td class="25 tablenumber">25</td><td class="26 tablenumber">26</td><td class="27 tablenumber">27</td><td class="28 tablenumber">28</td><td class="29 tablenumber">29</td>
+                </tr>
+                <tr>
+                    <td class="30 tablenumber">30</td><td class="31 tablenumber">31</td><td class="32 tablenumber">32</td><td class="33 tablenumber">33</td><td class="34 tablenumber">34</td><td class="35 tablenumber">35</td><td class="36 tablenumber">36</td><td class="37 tablenumber">37</td><td class="38 tablenumber">38</td><td class="39 tablenumber">39</td>
+                </tr>
+                <tr>
+                    <td class="40 tablenumber">40</td><td class="41 tablenumber">41</td><td class="42 tablenumber">42</td><td class="43 tablenumber">43</td><td class="44 tablenumber">44</td><td class="45 tablenumber">45</td><td class="46 tablenumber">46</td><td class="47 tablenumber">47</td><td class="48 tablenumber">48</td><td class="49 tablenumber">49</td>
+                </tr>
+                <tr>
+                    <td class="50 tablenumber">50</td><td class="51 tablenumber">51</td><td class="52 tablenumber">52</td><td class="53 tablenumber">53</td><td class="54 tablenumber">54</td><td class="55 tablenumber">55</td><td class="56 tablenumber">56</td><td class="57 tablenumber">57</td><td class="58 tablenumber">58</td><td class="59 tablenumber">59</td>
+                </tr>
+                <tr>
+                    <td class="60 tablenumber">60</td><td class="61 tablenumber">61</td><td class="62 tablenumber">62</td><td class="63 tablenumber">63</td><td class="64 tablenumber">64</td><td class="65 tablenumber">65</td><td class="66 tablenumber">66</td><td class="67 tablenumber">67</td><td class="68 tablenumber">68</td><td class="69 tablenumber">69</td>
+                </tr>
+                <tr>
+                    <td class="70 tablenumber">70</td><td class="71 tablenumber">71</td><td class="72 tablenumber">72</td><td class="73 tablenumber">73</td><td class="74 tablenumber">74</td><td class="75 tablenumber">75</td><td class="76 tablenumber">76</td><td class="77 tablenumber">77</td><td class="78 tablenumber">78</td><td class="79 tablenumber">79</td>
+                </tr>
+                <tr>
+                    <td class="80 tablenumber">80</td><td class="81 tablenumber">81</td><td class="82 tablenumber">82</td><td class="83 tablenumber">83</td><td class="84 tablenumber">84</td><td class="85 tablenumber">85</td><td class="86 tablenumber">86</td><td class="87 tablenumber">87</td><td class="88 tablenumber">88</td><td class="89 tablenumber">89</td>
+                </tr>
+                <tr>
+                    <td class="90 tablenumber">90</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button mediumbutton exporttable">Copy table to clipboard</div>
+        <p class="pastetable" align="right">Import table: <input type="text" id="pastedtable" size="5" name="num" value=""></p>
+        <div class="button minibutton importtable">Go!</div>
+        <p class="logline" id="log1" align="left">Max tickets: -</p>
+        <p class="logline" id="log2" align="right">Max Coincidences: -</p>        
+        <p class="logline3" id="log3" align="left">Iterations: -</p>
+        <p class="logline3" id="log4" align="left">Start time: -</p>
+        <p class="logline3" id="log5" align="left">End time: -</p>
+        <script src="settings.js"></script>
+    </body>
+
+</html>
